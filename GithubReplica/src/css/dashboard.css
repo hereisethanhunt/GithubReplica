@@ -1,0 +1,68 @@
+/* Outer div */
+
+.Dashboard .FormDiv{
+  margin-top: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.Dashboard .remove-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* right side name */
+
+.Dashboard .name-title{
+  padding: 0px;
+  padding-top: 16px;
+  font-size: 26px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
+  line-height: 1;
+}
+
+/* right side username */
+
+.Dashboard .username-title{
+  color:rgba(0,0,0,0.4);
+  font-size: 19px;
+  padding: 0px;
+  padding-top: 5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* right side description */
+
+.Dashboard .description-title{
+  color:rgba(0,0,0,0.7);
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  padding: 0px;
+  padding-top: 10px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* hover on tabs(overview,repository,etc) design */
+
+.Dashboard .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus,.Dashboard .nav-tabs>li.active>a:hover {
+    border: 0px;
+    border-bottom: 2px solid red;
+    color: rgba(0,0,0,0.8);
+    font-weight: 900;
+}
+
+.Dashboard .nav-tabs li > a{
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(0,0,0,0.3);
+}
+
+/* on mobile view, center aligning image and details */
+
+@media (max-width: 767px) {
+  .FormDiv .row .col-lg-3{
+    text-align: center;
+  }
+}

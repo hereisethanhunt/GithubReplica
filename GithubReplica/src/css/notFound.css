@@ -1,0 +1,54 @@
+.NotFound {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/notfound.jpg') no-repeat center center fixed;
+  position: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.NotFound .error {
+  margin-top: 100px;
+  color: #fff;
+  font-size: 18vw;
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+  z-index: 3;
+  position: relative;
+  animation: moveAndBack 4s reverse infinite;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.NotFound .error_title {
+
+  color: #fff;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: 500;
+  font-family: sans-serif;
+  z-index: 5;
+  position: relative;
+}
+
+@-webkit-keyframes moveAndBack {
+  0%, 100% { bottom: 0;}
+  50% {bottom: 25px;}
+}
+
+.NotFound img {
+  z-index: 4;
+  position: absolute;
+  margin-top: -550px;
+  right : 0px;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
